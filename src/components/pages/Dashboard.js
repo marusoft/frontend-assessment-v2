@@ -192,15 +192,20 @@ const Dashboard = () => {
 
               <div className="card-single order-1">
                 <div className="card-flex">
-                  <div className="card-info">
+                  <div className="card-info order">
                     <div className="order-card-head">
-                    <span>120</span>
-                      <h6>Companies sent orders
-                      to delivery pool today.</h6>
+                      <span>120</span>
+                      <h4>Companies sent orders
+                      to delivery pool today.</h4>
                     </div>
-                   <div></div>
+                    <div className="content-1">
+                      <img src={photo} alt={photo} />
+                      <h3>+84%</h3>
+                      <img src={graph1} alt={graph1} />
+                      <h4>Comapred to yesterday</h4>
+                    </div>
                   </div>
-                  
+
                 </div>
               </div>
 
@@ -210,9 +215,9 @@ const Dashboard = () => {
                     <div className="card-head">
                       <span>Orders Today</span>
                     </div>
-                   <div></div>
+                    <div></div>
                   </div>
-                  
+
                 </div>
               </div>
 
@@ -223,23 +228,23 @@ const Dashboard = () => {
                     <div className="card-head">
                       <span>Exchange pool today</span>
                     </div>
-                   <div></div>
+                    <div></div>
                   </div>
-                  
+
                 </div>
               </div>
 
               <div className="card-single order-4">
-              <div className="card-flex">
-                <div className="card-info">
-                  <div className="card-head">
-                    <span>Delivered Orders</span>
+                <div className="card-flex">
+                  <div className="card-info">
+                    <div className="card-head">
+                      <span>Delivered Orders</span>
+                    </div>
+                    <div></div>
                   </div>
-                 <div></div>
+
                 </div>
-                
               </div>
-            </div>
 
             </section>
           </div>

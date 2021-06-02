@@ -140,7 +140,7 @@ main {
   padding: 1rem;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
-  width: 340px;
+  width: 360px;
 }
 .card-flex {
   display: grid;
@@ -150,7 +150,7 @@ main {
   display: block;
   text-transform: capitalize;
   font-size: 0.9rem;
-  font-weight: bold;
+  font-weight: 400;
   line-height: 26px;
   width: 120px;
   margin-bottom: 1rem;
@@ -206,14 +206,16 @@ main {
   margin-top: 1.5rem;
 }
 .order-1 {
-  width: 300px;
+  width: 204px;
+  height: 360px;
 }
 .order-2 {
   width: 600px;
 }
 
 .order-3 {
-  width: 350px;
+  height: 361px;
+  width: 326px;
 }
 .order-4 {
   width: 600px;
@@ -221,6 +223,22 @@ main {
 .order-card-head span {
   font-size: 1.5rem;
 }
-.order-card-head h6 {
-  font-size: .9rem;
+.order-card-head h4 {
+  font-size: 0.7rem;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.content-1 {
+  margin-top: 2rem;
+}
+.content-1 h3 {
+  color: #ff3a29;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+.content-1 h4 {
+  font-weight: 400;
+  margin-top: 1.5rem;
+  font-size: 0.7rem;
 }
