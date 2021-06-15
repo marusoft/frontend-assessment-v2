@@ -4,6 +4,8 @@ import user from "../../assert/user.png";
 import line from "../../assert/Line 3.png";
 import photo from "../../assert/Photo.png";
 import graph1 from "../../assert/Graphic.png";
+import line2 from "../../assert/Graphic1.png";
+import delivery from "../../assert/deiverybike.png";
 import "../style.css";
 
 const Dashboard = () => {
@@ -20,55 +22,55 @@ const Dashboard = () => {
         <div className="sidebar-menu">
           <ul>
             <li>
-              <a href="">
+              <a href=".dashboard">
                 <span className="las la-icons"></span>
                 <span>Dashboard</span>
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="/companies">
                 <span className="las la-building"></span>
                 <span>Companies</span>
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="/order">
                 <span className="lab la-buffer"></span>
                 <span>Order Pool</span>
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="/history">
                 <span className="las la-list"></span>
                 <span>Order History</span>
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="/sub">
                 <span className="las la-wallet"></span>
                 <span>Subscription</span>
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="/earnings">
                 <span className="las la-money-check"></span>
                 <span>Earnings</span>
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="/report">
                 <span className="las la-signal"></span>
                 <span>Reports</span>
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="/settings">
                 <span className="las la-cog"></span>
                 <span>Settings</span>
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="/support">
                 <span className="las la-info-circle"></span>
                 <span>Support</span>
               </a>
@@ -189,14 +191,12 @@ const Dashboard = () => {
             {/** card section end */}
 
             <section className="order-cards">
-
               <div className="card-single order-1">
                 <div className="card-flex">
                   <div className="card-info order">
                     <div className="order-card-head">
                       <span>120</span>
-                      <h4>Companies sent orders
-                      to delivery pool today.</h4>
+                      <h4>Companies sent orders to delivery pool today.</h4>
                     </div>
                     <div className="content-1">
                       <img src={photo} alt={photo} />
@@ -205,7 +205,6 @@ const Dashboard = () => {
                       <h4>Comapred to yesterday</h4>
                     </div>
                   </div>
-
                 </div>
               </div>
 
@@ -217,20 +216,41 @@ const Dashboard = () => {
                     </div>
                     <div></div>
                   </div>
-
                 </div>
               </div>
-
 
               <div className="card-single order-3">
                 <div className="card-flex">
                   <div className="card-info">
                     <div className="card-head">
-                      <span>Exchange pool today</span>
+                      <h5>Exchange pool today</h5>
+                      <small>Most Orders picked by</small>
                     </div>
-                    <div></div>
+                    <div className="delivery">
+                      <div>
+                        <img className="bike" src={delivery} alt="" />
+                        <h5>FZ Deliveries</h5>
+                        <small>Allen, Lagos</small>
+                        <div className="pools">
+                          <div className="orders">
+                            <span>504</span>
+                            <small>Orders</small>
+                          </div>
+                          <div className="push-order">
+                            <span>267</span>
+                            <small>Pushed to pool</small>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="order-price">
+                        <span>N340,000</span>
+                        <span className="line2">
+                          <img src={line2} alt="" />
+                        </span>
+                        <h4>Comapred to yesterday</h4>
+                      </div>
+                    </div>
                   </div>
-
                 </div>
               </div>
 
@@ -242,10 +262,8 @@ const Dashboard = () => {
                     </div>
                     <div></div>
                   </div>
-
                 </div>
               </div>
-
             </section>
           </div>
         </main>

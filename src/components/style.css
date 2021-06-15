@@ -242,3 +242,55 @@ main {
   margin-top: 1.5rem;
   font-size: 0.7rem;
 }
+.bike {
+  max-width: 90px;
+}
+.delivery small{
+  font-weight: 500;
+  opacity: 0.4;
+  margin-bottom: 2rem;
+}
+
+.pools h5 {
+  color:#4339F2;
+  font-size: 1rem;
+}
+.pools small {
+  opacity: 0.4;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+.order-price h4 {
+  font-weight: 400;
+  font-size: 0.62rem;
+}
+
+.delivery{
+  display: flex;
+  justify-content: space-between;
+}
+.order-price{
+  margin-top: 7rem;
+  margin-left: 3rem;
+}
+.orders{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.orders span {
+  color: #FF3A29;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.push-order {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-price span:nth-child(1){
+  font-size: 1.8rem;
+}
+/* .line2{
+  font-size: .9rem;
+} */
