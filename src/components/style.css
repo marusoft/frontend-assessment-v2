@@ -300,11 +300,7 @@ main {
   margin-left: -1.5rem;
 }
 
-/* @media screen and (max-width: 1638px){
-  main {
-    min-height: 100vh;
-    padding: 2rem
-  }
+@media screen and (max-width: 1328px){
   .cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -313,19 +309,32 @@ main {
     width: 90px;
     margin-top: 1.5rem;
   }
-  
   .order-cards {
     display: grid;
-    margin-top: 23rem;
-    margin-left: -20.5rem;
+    margin-top: 27rem;
+    margin-left: -13.5rem;
+  }
+  .order-1 {
+    width: 190px;
+    height: 382px;
   }
   .order-2 {
-    width: 850px;
-    margin-left: -9rem;
+    width: 450px;
+    margin-left: -5rem;
   }
-
+  
+  .order-3 {
+    height: 382px;
+    width: 275px;
+  }
   .order-4 {
-    width: 720px;
-    margin-left: -.4rem;
+    width: 400px;
+    margin-left: -1.5rem;
   }
-} */
+  .content-1 h4 {
+    /* margin-top: 2rem; */
+    font-size: 0.57rem;
+  }
+}
+
+@media screen and (max-width: 1041px){}
