@@ -202,7 +202,7 @@ const Dashboard = () => {
                       <img src={photo} alt={photo} />
                       <h3>+84%</h3>
                       <img src={graph1} alt={graph1} />
-                      <h4>Comapred to yesterday</h4>
+                      <h4>Compared to yesterday</h4>
                     </div>
                   </div>
                 </div>

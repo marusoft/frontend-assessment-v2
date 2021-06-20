@@ -41,15 +41,15 @@
   margin-bottom: 0.65rem;
 }
 .sidebar-menu {
-  padding: 1.5rem;
+  padding: .9rem;
 }
 
 .sidebar li {
-  margin-bottom: 2.1rem;
+  margin-bottom: 1.3rem;
 }
 .sidebar a {
   color: #252525;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   opacity: 0.5;
 }
 
@@ -128,7 +128,7 @@ main {
   margin-top: 60px;
   background: #e8f0fe;
   min-height: 90vh;
-  padding: 2rem;
+  padding: 2rem
 }
 .cards {
   display: grid;
@@ -137,10 +137,10 @@ main {
 }
 .card-single {
   background: var(--card-color);
-  padding: 1rem;
+  padding: 1.2rem;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
-  width: 360px;
+  width: 300px;
 }
 .card-flex {
   display: grid;
@@ -149,36 +149,36 @@ main {
 .card-head span {
   display: block;
   text-transform: capitalize;
-  font-size: 0.9rem;
+  font-size: 0.73rem;
   font-weight: 400;
-  line-height: 26px;
-  width: 120px;
-  margin-bottom: 1rem;
+  /* line-height: 26px; */
+  width: 100px;
+  margin-bottom: 4rem;
 }
 .card-info h2 {
-  font-size: 2.375rem;
+  font-size: 1.7rem;
   color: #ff3a29;
 }
 
 .icon-1 span:nth-child(1) {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   color: #00ce2d;
+  margin-left: .6rem;
 }
 .icon-2 span:nth-child(1) {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   color: #ffb200;
 }
 .icon-3 span:nth-child(1) {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   color: #ff3a29;
 }
 .icon-4 span:nth-child(1) {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   color: #9b51e0;
 }
 .build {
-  margin-bottom: 2.8rem;
-  margin-left: 2rem;
+  margin-bottom: 4.2rem;
 }
 .figure {
   display: flex;
@@ -188,6 +188,7 @@ main {
 }
 .today {
   color: #92929d;
+  font-size: .7rem;
 }
 .la-caret-down {
   color: #252525;
@@ -196,7 +197,7 @@ main {
 .dashboard-grid {
   display: grid;
   grid-template-columns: 30% 70%;
-  padding-right: 5rem;
+  /* padding-right: 5rem; */
 }
 
 .order-cards {
@@ -207,18 +208,20 @@ main {
 }
 .order-1 {
   width: 204px;
-  height: 360px;
+  height: 382px;
 }
 .order-2 {
-  width: 600px;
+  width: 530px;
+  margin-left: -5rem;
 }
 
 .order-3 {
-  height: 361px;
-  width: 326px;
+  height: 382px;
+  width: 275px;
 }
 .order-4 {
-  width: 600px;
+  width: 470px;
+  margin-left: -1.5rem;
 }
 .order-card-head span {
   font-size: 1.5rem;
@@ -239,8 +242,8 @@ main {
 }
 .content-1 h4 {
   font-weight: 400;
-  margin-top: 1.5rem;
-  font-size: 0.7rem;
+  margin-top: 2rem;
+  font-size: 0.67rem;
 }
 .bike {
   max-width: 90px;
@@ -262,7 +265,8 @@ main {
 }
 .order-price h4 {
   font-weight: 400;
-  font-size: 0.62rem;
+  font-size: 0.55rem;
+  margin-left: -1.5rem;
 }
 
 .delivery{
@@ -280,7 +284,7 @@ main {
 }
 .orders span {
   color: #FF3A29;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 .push-order {
@@ -289,8 +293,39 @@ main {
 }
 
 .order-price span:nth-child(1){
-  font-size: 1.8rem;
+  font-size: 1.3rem;
+  margin-left: -1.5rem;
 }
-/* .line2{
-  font-size: .9rem;
+.line2{
+  margin-left: -1.5rem;
+}
+
+/* @media screen and (max-width: 1638px){
+  main {
+    min-height: 100vh;
+    padding: 2rem
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    height: 60px;
+    width: 90px;
+    margin-top: 1.5rem;
+  }
+  
+  .order-cards {
+    display: grid;
+    margin-top: 23rem;
+    margin-left: -20.5rem;
+  }
+  .order-2 {
+    width: 850px;
+    margin-left: -9rem;
+  }
+
+  .order-4 {
+    width: 720px;
+    margin-left: -.4rem;
+  }
 } */
