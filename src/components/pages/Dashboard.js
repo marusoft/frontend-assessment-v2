@@ -1,11 +1,5 @@
 import React, { Fragment } from "react";
-import logo from "../../assert/Logo.svg";
-import user from "../../assert/user.png";
-import line from "../../assert/Line 3.png";
-import photo from "../../assert/Photo.png";
-import graph1 from "../../assert/Graphic.png";
-import line2 from "../../assert/Graphic1.png";
-import delivery from "../../assert/deiverybike.png";
+
 import "../style.css";
 
 const Dashboard = () => {
@@ -14,7 +8,7 @@ const Dashboard = () => {
       <div className="sidebar">
         <div className="sidebar-header">
           <h3 className="brand">
-            <img src={logo} className="logo" alt="logo" />
+            <img src="https://res.cloudinary.com/marusofteamwork/image/upload/v1625065903/frontendassessment/Logo_csjnl6.svg" className="logo" alt="logo" />
           </h3>
           <span className="las la-bars"></span>
         </div>
@@ -87,7 +81,7 @@ const Dashboard = () => {
           </div>
 
           <div className="user">
-            <img src={user} alt="user" />
+            <img src="https://res.cloudinary.com/marusofteamwork/image/upload/v1625065903/frontendassessment/user_jnk4ye.png" alt="user" />
             <span className="indicator"></span>
             <div className="user-info">
               <span>Jude Adam</span>
@@ -113,7 +107,7 @@ const Dashboard = () => {
                     <div className="figure">
                       <h2>504</h2>
                       <span>
-                        <img src={line} alt="" />
+                        <img src="https://res.cloudinary.com/marusofteamwork/image/upload/v1625065903/frontendassessment/Line_3_k39hn8.png" alt="" />
                       </span>
                     </div>
                   </div>
@@ -134,7 +128,7 @@ const Dashboard = () => {
                     <div className="figure">
                       <h2>504</h2>
                       <span>
-                        <img src={line} alt="" />
+                        <img src="https://res.cloudinary.com/marusofteamwork/image/upload/v1625065903/frontendassessment/Line_3_k39hn8.png" alt="" />
                       </span>
                     </div>
                   </div>
@@ -155,7 +149,7 @@ const Dashboard = () => {
                     <div className="figure">
                       <h2>504</h2>
                       <span>
-                        <img src={line} alt="" />
+                        <img src="https://res.cloudinary.com/marusofteamwork/image/upload/v1625065903/frontendassessment/Line_3_k39hn8.png" alt="" />
                       </span>
                     </div>
                   </div>
@@ -176,7 +170,7 @@ const Dashboard = () => {
                     <div className="figure">
                       <h2>504</h2>
                       <span>
-                        <img src={line} alt="" />
+                        <img src="https://res.cloudinary.com/marusofteamwork/image/upload/v1625065903/frontendassessment/Line_3_k39hn8.png" alt="" />
                       </span>
                     </div>
                   </div>
@@ -199,9 +193,9 @@ const Dashboard = () => {
                       <h4>Companies sent orders to delivery pool today.</h4>
                     </div>
                     <div className="content-1">
-                      <img src={photo} alt={photo} />
+                      <img src="https://res.cloudinary.com/marusofteamwork/image/upload/v1625065903/frontendassessment/Photo_mnwpfg.png" alt="" />
                       <h3>+84%</h3>
-                      <img src={graph1} alt={graph1} />
+                      <img src="https://res.cloudinary.com/marusofteamwork/image/upload/v1625065903/frontendassessment/Graphic_rbcntk.png" alt="" />
                       <h4>Compared to yesterday</h4>
                     </div>
                   </div>
@@ -228,7 +222,7 @@ const Dashboard = () => {
                     </div>
                     <div className="delivery">
                       <div>
-                        <img className="bike" src={delivery} alt="" />
+                        <img className="bike" src="https://res.cloudinary.com/marusofteamwork/image/upload/v1625065908/frontendassessment/deiverybike_vsmrhp.png" alt="" />
                         <h5>FZ Deliveries</h5>
                         <small>Allen, Lagos</small>
                         <div className="pools">
@@ -245,7 +239,7 @@ const Dashboard = () => {
                       <div className="order-price">
                         <span>N340,000</span>
                         <span className="line2">
-                          <img src={line2} alt="" />
+                          <img src="https://res.cloudinary.com/marusofteamwork/image/upload/v1625065903/frontendassessment/Graphic1_xto2wv.png" alt="" />
                         </span>
                         <h4>Comapred to yesterday</h4>
                       </div>
