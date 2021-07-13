@@ -1,22 +1,13 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import { TextField } from "@material-ui/core";
+import Header from "../layout/Header";
 import "./register.css";
 
 const Register = () => {
   return (
     <Fragment>
-      {/** header */}
-      <div className="header">
-        <span>
-          <img
-            src="https://res.cloudinary.com/marusofteamwork/image/upload/v1625065903/frontendassessment/Logo_csjnl6.svg"
-            alt=""
-          />
-        </span>
-        <span className="brand-name">DMS</span>
-      </div>
-      {/** header */}
+      <Header />
 
       {/** description and form */}
       <section className="description-form">
@@ -33,7 +24,7 @@ const Register = () => {
           <p className="logistics">
             Every logistics span-input whether it's multi-national branding
             corporation or a regular local deserves the basic standard
-            necessities in achieving a high service delivery
+            necessities in achieving a high service delivery.
           </p>
           <Link to="/register">
             <button className="button">Get Started</button>
