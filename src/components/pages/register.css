@@ -1,0 +1,97 @@
+/* HEADER */
+.header {
+  margin-top: 1.5rem;
+  padding-left: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.brand-name {
+  margin-left: 0.9rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+/* HEADER */
+
+/* Description */
+.description-form {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+.description {
+  max-width: 500px;
+  text-align: center;
+}
+.manage {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.logistics {
+  font-size: 0.875rem;
+  margin-top: 1.5rem;
+  font-weight: 400;
+  opacity: 0.4;
+}
+.button {
+  outline: none;
+  border: none;
+  padding: 0.7rem;
+  width: 120px;
+  background: #053582;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.description button {
+  margin-top: 2rem;
+}
+/* Description */
+
+/* Form */
+.progress {
+  width: 400px;
+  color: #053582;
+}
+.form-wrapper h4 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 36px;
+  color: #393939;
+}
+.form-wrapper p {
+  margin-bottom: 0.9rem;
+  color: #404040;
+  font-size: 0.9rem;
+}
+.form-field {
+  display: grid;
+  gap: 0.6rem;
+}
+.span-input {
+  grid-column: span 2;
+  outline: none;
+}
+.form-wrapper {
+  width: 480px;
+  height: 510px;
+  border-radius: 30px;
+  padding: 2.5rem;
+  background: #ffffff;
+  box-shadow: 3px -5px 40px rgba(205, 205, 212, 0.1);
+}
+.agree p {
+  color: #252525;
+  font-size: 0.76rem;
+  letter-spacing: 0.003em;
+  margin-top: 1rem;
+}
+.account {
+  /* margin-top: 2rem; */
+  text-align: right;
+  color: #696974;
+}
+button.btn-register {
+  margin-left: 3.5rem;
+}
+/* Form */
