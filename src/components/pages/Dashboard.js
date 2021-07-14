@@ -69,6 +69,12 @@ const Dashboard = () => {
                 <span>Support</span>
               </a>
             </li>
+            <li>
+              <a href="/register">
+                <span className="las la-sign-out-alt"></span>
+                <span>Sign Out</span>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
