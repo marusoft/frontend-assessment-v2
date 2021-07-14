@@ -1,5 +1,4 @@
 import "./App.css";
-// import Header from '../src/components/layout/Header.js'
 import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import Dashboard from "./components/pages/Dashboard";
 import Register from "./components/pages/Register";

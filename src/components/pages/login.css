@@ -1,0 +1,147 @@
+/* Description */
+.description-form {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+.description {
+  max-width: 500px;
+  text-align: center;
+}
+.manage {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.logistics {
+  font-size: 0.875rem;
+  margin-top: 1.5rem;
+  font-weight: 600;
+  opacity: 0.4;
+}
+.button {
+  outline: none;
+  border: none;
+  padding: 0.7rem;
+  width: 120px;
+  background: #053582;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.description button {
+  margin-top: 2rem;
+}
+/* Description */
+
+/* Form */
+.login-wrapper {
+  width: 495px;
+  height: 360px;
+  border-radius: 30px;
+  padding: 2.5rem;
+  background: #ffffff;
+  box-shadow: 3px -5px 40px rgba(205, 205, 212, 0.1);
+}
+.login-wrapper h4 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 36px;
+  color: #393939;
+}
+.login-wrapper p {
+  margin-bottom: 0.9rem;
+  color: #404040;
+  font-size: 0.9rem;
+}
+.login-field {
+  display: grid;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+}
+.f-password p {
+  color: #252525;
+  font-size: 0.76rem;
+  letter-spacing: 0.003em;
+  margin-top: 1rem;
+  text-align: right;
+}
+.l-account {
+  text-align: right;
+  color: #696974;
+  margin-top: 1.5rem;
+}
+.l-account span {
+  margin-right: 1.5rem;
+}
+button.btn-login {
+ width: 100px;
+}
+/* Form */
+
+@media screen and (max-width: 1024px) {
+  .description-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .login-wrapper {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    
+  }
+}
+@media screen and (max-width: 550px) {
+  .logistics {
+    font-size: 1rem;
+    padding: 1.2rem;
+  }
+  .login-wrapper {
+    width: 420px;
+  }
+  .l-account span {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (min-width: 411px) and (max-width: 414px) {
+  .manage {
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .login-wrapper {
+    width: 350px;
+  }
+  .button {
+    border: none;
+    padding: 0.7rem;
+    width: 100px;
+    font-size: 0.8rem;
+  }
+  .f-password p {
+    font-size: 0.4rem;
+  }
+  .login-wrapper h4 {
+    font-size: 0.9rem;
+  }
+  .login-wrapper p {
+    font-size: 0.7rem;
+  }
+  .l-account span {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .login-wrapper {
+    width: 330px;
+  }
+
+}
+@media screen and (max-width: 280px){
+  .login-wrapper {
+    width: 290px;
+  }
+  button.btn-login {
+    width: 70px;
+   }
+}
